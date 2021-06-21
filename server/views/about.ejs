@@ -1,0 +1,62 @@
+<!-- 
+    Student Name: Devanshi Patel StudentID: 301161377 Date: 19 June 2021 
+-->
+<!-- including heaeders and footers ejs file -->
+<%- include('partials/header'); -%>
+<div id="page-content-wrapper">
+    <!-- Keep all page content within the page-content inset div! -->
+    <div class="page-content inset">
+      <div class="row">
+        <div class="col-md-12">
+          <p style="text-align:center; font-size:30px; font-family:Fantasy;" class="well lead"><a style="color: teal;">
+              Portfolio of Devanshi Patel </a></p>
+          <div class="container">
+            <div class="row">
+              <!-- div da esquerda -->
+              <!-- Text input CNPJ e Razao Social-->
+              <div class="well col-md-11">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <p style="font-size:15px;">
+                      Devanshi Patel
+                    </p>
+                    <p style="font-size:15px;">
+                      Date of Birth: Feb 22, 1996
+                    </p>
+                    <p style="font-size:15px;">
+                      Address: 10 Carabob Crt, Scarborough, ON
+                    <p style="font-size:15px;">
+
+                      I am the graduated fellow from Bachelor of Computer Science in 2017, I have extensive 2 years of
+                      work experience as a software developer from India.
+                      Currently the first-year student of software Engineering Technology From Centennial college.My
+                      short-term goal is to pursue my passion for web development.
+
+                  </div>
+
+                  <div class="col-sm-4"><img src="img/MyPic.jpg" class="img-responsive" alt="MyPhoto" width="304"
+                      height="236"> </div>
+
+                </div>
+                <form action="/img/Devanshi Patel.pdf" method="get" class="site-form">
+                  <div class="form-group">
+                    <input type="submit" name="submit" id="submit" value="Resume" style="width:200px;"
+                      class="btn btn-info pull-left">
+
+                  </div>
+                </form>
+
+
+              </div>
+
+            </div> <!-- fim div da direita -->
+          </div> <!-- fim div da esquerda -->
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+<%- include("partials/footer"); -%>
